@@ -11,3 +11,12 @@ Dari kedua gambar di atas, bisa dilihat bahwa ketika saya mencoba melakukan peru
 
 ![alt text](server-port.png)
 ![alt text](client-port-normal.png)
+
+## 2.3
+
+![alt text](server-code.png)
+![alt text](client-code.png)
+![alt text](server-updated.png)
+![alt text](client-updated.png)
+
+Perubahan output pada kedua gambar output merupakan hasil dari adanya perubahan kode pada bagian server dan juga client (tertera pada gambar di atas). Perubahan tersebut dilakukan supaya bcast.tx (yang merupakan sender) mengirimkan pesan ke setiap client, akan menyertakan informasi pengirim teks melalui variabel addr.
